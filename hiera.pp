@@ -5,5 +5,5 @@ class {'hiera':
     'role/%{role}',
     'global',
   ],
-  datadir   => '/etc/puppetlabs/code/environments/%{::environment}/hiera',
+  datadir   => '/etc/puppetlabs/code/environments/%{::environment}/hieradata',
 }
